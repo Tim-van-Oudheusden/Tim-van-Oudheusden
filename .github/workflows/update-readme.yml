@@ -6,6 +6,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment:
+        name: production
     permissions:
       contents: write
     steps:
@@ -30,8 +32,3 @@ jobs:
           plugin_repositories_featured: Tim-van-Oudheusden/obsidian-hoster, Tim-van-Oudheusden/aws-vpc-cloudformation
           plugin_repositories_affiliations: owner, collaborator
           plugin_licenses: yes
-          # plugin_steam: false
-          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          # plugin_steam_user: ${{ secrets.STEAM_UID }}
-          # plugin_steam_sections: player, recently-played
-          # plugin_steam_achievements_limit: 0
