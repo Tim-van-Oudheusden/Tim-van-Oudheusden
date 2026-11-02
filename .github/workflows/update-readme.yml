@@ -29,6 +29,6 @@ jobs:
           plugin_lines: yes
           plugin_lines_sections: base, repositories
           plugin_repositories: yes
-          plugin_repositories_featured: Tim-van-Oudheusden/obsidian-hoster, Tim-van-Oudheusden/aws-vpc-cloudformation
+          plugin_repositories_featured: Tim-van-Oudheusden/website Tim-van-Oudheusden/Dailies
           plugin_repositories_affiliations: owner, collaborator
           plugin_licenses: yes
