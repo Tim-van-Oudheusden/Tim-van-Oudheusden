@@ -29,6 +29,7 @@ jobs:
           plugin_languages_limit: 4
           plugin_lines: yes
           plugin_lines_sections: base, repositories
+          plugin_lines_private: no
           plugin_repositories: yes
           plugin_repositories_featured: Tim-van-Oudheusden/website, Tim-van-Oudheusden/Dailies
           plugin_repositories_affiliations: owner, collaborator
